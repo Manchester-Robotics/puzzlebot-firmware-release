@@ -1,6 +1,5 @@
 Commands:
 
-./FirmwareFlash.sh  : flashes the firmware and data to the esp32
+./FirmwareFlash.sh  : flashes the firmware and data to the esp32, prompting the user for Network SSID and Pw
 
-Set permission to be executed in properties to both files.
-
+Set permission to be executed in properties of firmware flash

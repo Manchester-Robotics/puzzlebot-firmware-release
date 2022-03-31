@@ -34,18 +34,18 @@ Others:
 Get latest binaries from https://github.com/codres-ali/puzzlebot-firmware/releases  
 The firmware utilities allow for flashing the puzzlebot firmware and SPIFFS file system data on the ESP32 chip.
 
-### Linux
+### Linux & MacOS
 
 To flash the firmware and data to the PuzzleBot execute the following in a terminal:
 ```
 ./FirmwareFlash.sh
 ```
-The script files are located in the */Linux* folder from the downloaded binaries. Set permission to be executed in properties to both files.
+The script files are located in the */Linux* and *MacOS* folders respectively. it may be necessary to set permission to be executed in properties.
 
 ### Windows
 To flash the firmware to the PuzzleBot run `FirmwareFlash.bat`.
 
-The script files are located in the */Windows* folder from the downloaded binaries.
+The script files are located in the *Windows* folder from the downloaded binaries.
 The script will attempt to locate all connected ESP32s and flash them one after the other. If the flash fails, ensure to disconnect all USB devices that except the PuzzleBot.
 
 
